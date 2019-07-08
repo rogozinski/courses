@@ -1,0 +1,42 @@
+{
+  "name": "warsawjs-workshop-25-myskills-working",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "prebuild": "echo 'Zaczyna budować plik bule.js'",
+    "build": "webpack",
+    "postbuild": "echo 'Skończyłem budować plik bundle.js'",
+    "watch": "webpack -w",
+    "start": "http-server",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogozinski/warsawjs-workshop-25-myskills-working.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogozinski/warsawjs-workshop-25-myskills-working/issues"
+  },
+  "homepage": "https://github.com/rogozinski/warsawjs-workshop-25-myskills-working#readme",
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "eslint-config-piecioshka": "^2.0.1",
+    "http-server": "^0.11.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "^4.3.1",
+    "react-star-rating-component": "^1.4.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
