@@ -26,7 +26,7 @@
         </p>
         <p>
             <label for="number">Your number: </label>
-            <input type="number" placeholder="enter a number" id="number" name="number">
+            <input type="number" placeholder="enter a number" id="number" name="number" min="0" max="10">
         </p>
 
         <button>Submit</button>
@@ -51,6 +51,51 @@
         <label for="ytsearch">YoutTube Search: </label>
         <input type="text" name="search_query" id="ytsearch">
         <button>Search</button>
+    </form>
+    <hr>
+    <h2>Other types of inputs in HTML</h2>
+    <form action="/birds">
+        <h3>Checkbox - Favourite drink</h3>
+        <p>
+
+            <input type="checkbox" name="water" id="water" checked>
+            <label for="water">Still water </label>
+
+            <input type="checkbox" name="fizzy" id="fizzy">
+            <label for="fizzy">Fizzy Drinks </label>
+
+            <input type="checkbox" name="milk" id="milk">
+            <label for="milk">Milk </label>
+        </p>
+        <h3>Radio - Favourite letter</h3>
+        <p>
+            <input type="radio" name="alphabet" id="a_letter" value="a_letter">
+            <label for="a_letter">A</label>
+
+            <input type="radio" name="alphabet" id="b_letter" value="b_letter">
+            <label for="b_letter">B</label>
+
+            <input type="radio" name="alphabet" id="c_letter" value="c_letter">
+            <label for="c_letter">C</label>
+        </p>
+        <h3>Select - Employement status</h3>
+        <p>
+            <label for="employement">Your employement status: </label>
+            <select name="employement" id="employement">
+                <option value="employed">Employed</option>
+                <option value="selfemployed">Self-employed</option>
+                <option value="unemployed">Unemployed</option>
+                <option value="preferno">Prefer Not To Say</option>
+                <option value="" selected>-- Please choose an option --</option>
+            </select>
+        </p>
+        <h3>Range - Amount of Cheese in your burger</h3>
+        <p>
+            <label for="cheese">Amount of Cheese (%): </label>
+            <input type="range" name="cheese_level" id="cheese" min="0" max="100" step="10">
+        </p>
+
+        <button>Submit</button>
     </form>
 </body>
 
