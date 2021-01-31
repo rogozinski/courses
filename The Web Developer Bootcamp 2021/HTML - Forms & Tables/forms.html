@@ -105,6 +105,27 @@
 
         <button>Submit</button>
     </form>
+    <hr>
+    <h2>Vaildation Demo</h2>
+    <form action="/somewhere">
+        <p>
+            <label for="fname">Enter First Name: </label>
+            <input type="text" name="fname" id="fname" required>
+        </p>
+        <p>
+            <label for="username">Username: </label>
+            <input type="text" name="username" id="username" minlength="5" maxlength="20" required>
+        </p>
+        <p>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required>
+        </p>
+        <p>
+            <label for="url">URL: </label>
+            <input type="url" name="url" id="url" required>
+        </p>
+        <button>Submit</button>
+    </form>
 </body>
 
 </html>
