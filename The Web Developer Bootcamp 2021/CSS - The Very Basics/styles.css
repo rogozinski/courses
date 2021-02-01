@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    font-weight: normal;
+    text-decoration: #0000FF underline;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-family: Big Caslon, Impact, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+P{
+    line-height: 2;
+}
