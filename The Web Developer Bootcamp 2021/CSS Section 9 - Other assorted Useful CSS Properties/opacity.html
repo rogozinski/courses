@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparency & Opacity</title>
+
+    <style>
+        section {
+            width: 400px;
+            height: 400px;
+            background-color: greenyellow;
+            display: inline-block;
+        }
+
+        #rgba {
+            width: 50%;
+            height: 50%;
+            /* if we use transparency channel then it affecks its container only. visibility of nested elements won't change*/
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        #opacity {
+            width: 200px;
+            height: 200px;
+            /* if we use opacity then it affecks nested elements*/
+            background-color: white;
+            opacity: 0.5;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Transparency & Opacity</h1>
+    <hr>
+
+    <section>
+        <div id="rgba">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam ratione deleniti quia laudantium
+            animi qui et vel tenetur similique. Rerum blanditiis deserunt dolore ipsum mollitia illum facere, autem
+            necessitatibus.
+        </div>
+
+    </section>
+    <section>
+        <div id="opacity">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis aperiam ratione deleniti quia laudantium
+            animi qui et vel tenetur similique. Rerum blanditiis deserunt dolore ipsum mollitia illum facere, autem
+            necessitatibus.
+        </div>
+    </section>
+
+
+</body>
+
+</html>
