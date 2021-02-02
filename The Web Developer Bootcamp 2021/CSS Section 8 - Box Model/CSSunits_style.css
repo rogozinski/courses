@@ -1,0 +1,62 @@
+section{
+    background-color: #6d6875;
+    width: 400px;
+    height: 400px;
+}
+
+div{
+    background-color: #e5989b;
+    width: 50%;
+    height: 50%;
+}
+
+h1{
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+#ems{
+    font-size: 20px;
+}
+/* An article font-size is 20px. So 1em is 20px, 1,5em is 30px and 2em is 40px */
+
+#ems h2{
+    font-size: 2em; /* 40px */
+}
+
+#ems h3{
+    font-size: 1.5em; /* 30px */
+}
+
+#ems p{
+    font-size: 1em; /* 20px */
+}
+
+/*button's properties inherities parent's font-size value which is 20px*/
+button{
+    font-size:1em; /* 20px */
+    padding: 0 1em; /* 0 20px */
+    border-radius: 0.5em; /* 10px */
+    background-color: #2a9d8f;
+    color: white;
+}
+
+#ems ul{
+    font-size: 1.5em;
+}
+
+#rems h3{
+    font-size:3rem;
+}
+
+#rems h4{
+    font-size:2rem;
+}
+
+#rems ul{
+    font-size: 0.8rem;
+}
+#rems button{
+    font-size: 1.5rem;
+}
