@@ -39,8 +39,31 @@ h2 + button{
     font-size:20px;
 }
 
-
 /*color of "a" tag which is direct children of a footer will be changed to #457b9d*/
 footer > a{
     color: #457b9d;
+}
+
+
+input[type="password"]{
+    color: green;
+}
+/*
+section[class="post"]{
+    background-color: purple;
+}
+
+section.post{
+    background-color: red;
+}
+*/
+
+/*<a> elements with an href containing "google"*/
+a[href*="google"]{
+    color: magenta;
+}
+
+/*<a> elements with an href ending ".com"*/
+a[href$=".com"]{
+    font-size: 20px;
 }
