@@ -10,5 +10,15 @@ h1 {
     height: 500px;
     margin: 0 auto;
     border: 5px solid #003049;
+
+    /*flex direction is set to "row" as default */
+    /*flex-direction: ROW | ROW-REVERSE | COLUMN | COLUMN-REVERSE;*/
+
+    display: flex;
+    flex-direction: column;
 }
 
+#container div{
+    width: 200px;
+    height: 200px;
+}
