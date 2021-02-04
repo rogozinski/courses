@@ -15,13 +15,16 @@ h1 {
     /*flex-direction: ROW | ROW-REVERSE | COLUMN | COLUMN-REVERSE;*/
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /*justify content: CENTER |  FLEX-START | FLEX-END  | SPACE-AROUND | SPACE-BETWEEN | SPACE-EVENLY*/
-    justify-content: space-around;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap | wrap-reverse | nowrap*/
+    flex-wrap: wrap;
 
 }
 
 #container div{
     width: 200px;
     height: 200px;
+    text-align: center;
 }
