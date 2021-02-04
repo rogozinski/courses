@@ -15,12 +15,12 @@ h1 {
     /*flex-direction: ROW | ROW-REVERSE | COLUMN | COLUMN-REVERSE;*/
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     /*justify content: CENTER |  FLEX-START | FLEX-END  | SPACE-AROUND | SPACE-BETWEEN | SPACE-EVENLY*/
-    justify-content: space-evenly;
+    justify-content: center;
     /* flex-wrap: wrap | wrap-reverse | nowrap*/
     flex-wrap: wrap;
-
+    align-items: center;
 }
 
 #container div{
