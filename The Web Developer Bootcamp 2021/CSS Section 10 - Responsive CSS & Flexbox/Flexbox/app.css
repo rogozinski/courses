@@ -7,24 +7,19 @@ h1 {
 #container {
     background-color: #003049;
     width: 90%;
-    height: 500px;
+    /*height: 500px;*/
     margin: 0 auto;
     border: 5px solid #003049;
 
-    /*flex direction is set to "row" as default */
-    /*flex-direction: ROW | ROW-REVERSE | COLUMN | COLUMN-REVERSE;*/
-
     display: flex;
-    flex-direction: row;
-    /*justify content: CENTER |  FLEX-START | FLEX-END  | SPACE-AROUND | SPACE-BETWEEN | SPACE-EVENLY*/
+    flex-direction: column;
     justify-content: center;
-    /* flex-wrap: wrap | wrap-reverse | nowrap*/
     flex-wrap: wrap;
-    align-items: center;
 }
 
 #container div{
     width: 200px;
     height: 200px;
     text-align: center;
+    flex-basis: 400px;
 }
