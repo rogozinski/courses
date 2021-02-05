@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-h1 {
+h1, h2 {
     text-align: center;
 }
 #container {
@@ -34,3 +34,21 @@ div:nth-of-type(5) {
     flex-shrink: 0;
 }
 
+main{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    height: 500px;
+    display: flex;
+}
+
+main .sidebar{
+    background-color: #6930c3;
+    border: 1px solid white;
+    flex: 1 2 300px;
+}
+
+main .maincontent{
+    background-color: #80ffdb;
+    flex: 2 1 800px;
+}
