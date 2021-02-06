@@ -6,3 +6,5 @@ This repository contains two folders. First one is from the ** React workshops f
 Second one is **The Web Developer Bootcamp 2021** by a **Colt Steel** at Udemy - currently I'm attending to his online classes. If you want to follow my learning proccess just have a look at the checklist below.
 
 ## Learning process at **The Web Developer Bootcamp 2021:**
+
+- [X] Section 1: Course Orientation
