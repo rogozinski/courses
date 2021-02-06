@@ -5,7 +5,7 @@ This folder contains all work that I have done during the courses. In the future
 This repository contains two folders. First one is from the ** React workshops for beginners ** that I have attented two years ago - **WarsawJS**.
 Second one is **The Web Developer Bootcamp 2021** by a **Colt Steel** at Udemy - currently I'm attending to his online classes. If you want to follow my learning proccess just have a look at the checklist below.
 
-## Learning process at **The Web Developer Bootcamp 2021:**
+## My process at **The Web Developer Bootcamp 2021:**
 
 - [X] Section 1: Course Orientation
 - [X] Section 2: An Introduction to Web Development
@@ -18,4 +18,4 @@ Second one is **The Web Developer Bootcamp 2021** by a **Colt Steel** at Udemy -
 - [X] Section 9: Other Assorted Useful CSS Properties
 - [X] Section 10: Responsive CSS & Flexbox
 - [X] Section 11: **Pricing Panel Project**
-- [ ] Section 12: CSS Frameworks: Bootstrap [In Progress...]
+- [ ] **Section 12: CSS Frameworks: Bootstrap [In Progress...]**
