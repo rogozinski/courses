@@ -19,3 +19,53 @@ Second one is **The Web Developer Bootcamp 2021** by a **Colt Steel** at Udemy -
 - [X] Section 10: Responsive CSS & Flexbox
 - [X] Section 11: **Pricing Panel Project**
 - [ ] **Section 12: CSS Frameworks: Bootstrap [In Progress...]**
+- [ ] Section 13: OPTIONAL Museum of Candy Project
+- [ ] Section 14: JavaScript Basics!
+- [ ] Section 15: JavaScript Strings and More
+- [ ] Section 16: JavaScript Decision Making
+- [ ] Section 17: JavaScript Arrays
+- [ ] Section 18: JavaScript Object Literals
+- [ ] Section 19: Repeating Stuff With Loops
+- [ ] Section 20: NEW: Introducing Functions
+- [ ] Section 21: Leveling Up Our Functions
+- [ ] Section 22: Callbacks & Array Methods
+- [ ] Section 23: Newer JavaScript Features
+- [ ] Section 24: Introducing The World of DOM
+- [ ] Section 25: The Missing Piece: DOM Events
+- [ ] Section 26: Score Keeper CodeAlong
+- [ ] Section 27: Async JavaScript: Oh Boy!
+- [ ] Section 28: AJAX and API's
+- [ ] Section 29: Prototypes, Classes & OOP
+- [ ] Section 30: Mastering The Terminal
+- [ ] Section 31: Our First Brush with Node
+- [ ] Section 32: Exploring Modules & The NPM Universe
+- [ ] Section 33: Creating Servers with Express
+- [ ] Section 34: Creating Dynamic HTML with Templating
+- [ ] Section 35: Defining RESTful Routes
+- [ ] Section 36: Our First Database: MongoDB
+- [ ] Section 37: Connecting to Mongo with Mongoose
+- [ ] Section 38: Putting It All Together: Moongoose with Express
+- [ ] Section 39: YelpCamp: Campgrounds CRUD
+- [ ] Section 40: Middleware: The Key to Express
+- [ ] Section 41: YelpCamp: Adding Basic Styles
+- [ ] Section 42: Handling Errors in Express Apps
+- [ ] Section 43: YelpCamp: Errors & Validating Data
+- [ ] Section 44: Data Relationships with Express
+- [ ] Section 45: Mongo Relationships with Express
+- [ ] Section 46: YelpCamp: Adding The Reviews Model
+- [ ] Section 47: Express Router & Cookies
+- [ ] Section 48: Express Session & Flash
+- [ ] Section 49: YelpCamp: Restructuring & Flash
+- [ ] Section 50: Authentication from "Scratch"
+- [ ] Section 51: YelpCamp: Adding in Authentication
+- [ ] Section 52: YelpCamp: Basic Authentication
+- [ ] Section 53: YelpCamp: Controllers & Star Rating
+- [ ] Section 54: YelpCamp: Image Upload
+- [ ] Section 55: YelpCamp: Adding Maps
+- [ ] Section 56: YelpCamp: Fancy Cluster Map
+- [ ] Section 57: YelpCamp: Styles Clean Up
+- [ ] Section 58: YelpCamp: Common Security Issues
+- [ ] Section 59: YelpCamp: Deploying
+- [ ] Section 60: LEGACY CONTENT (The Old Version of this course)
+ 
+
