@@ -18,8 +18,8 @@ Second one is **The Web Developer Bootcamp 2021** by a **Colt Steele** at Udemy 
 - [X] Section 9: Other Assorted Useful CSS Properties
 - [X] Section 10: Responsive CSS & Flexbox
 - [X] Section 11: **Pricing Panel Project**
-- [ ] **Section 12: CSS Frameworks: Bootstrap [In Progress...]**
-- [ ] Section 13: OPTIONAL Museum of Candy Project
+- [X] Section 12: CSS Frameworks: Bootstrap
+- [ ] **Section 13: OPTIONAL Museum of Candy Project [In Progress...]**
 - [ ] Section 14: JavaScript Basics!
 - [ ] Section 15: JavaScript Strings and More
 - [ ] Section 16: JavaScript Decision Making
