@@ -21,8 +21,8 @@ Second one is **The Web Developer Bootcamp 2021** by a **Colt Steele** at Udemy 
 - [X] Section 12: CSS Frameworks: Bootstrap
 - [X] Section 13: **OPTIONAL Museum of Candy Project**
 - [X] Section 14: JavaScript Basics! 
-- [ ] **Section 15: JavaScript Strings and More[In Progress...]**
-- [ ] Section 16: JavaScript Decision Making
+- [X] Section 15: JavaScript Strings and More
+- [ ] **Section 16: JavaScript Decision Making [In Progress...]**
 - [ ] Section 17: JavaScript Arrays
 - [ ] Section 18: JavaScript Object Literals
 - [ ] Section 19: Repeating Stuff With Loops
