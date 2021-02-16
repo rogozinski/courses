@@ -9,7 +9,7 @@ console.log(array1);
 console.log(array2);
 console.log(array3);
 
-//Include - look for value
+//Includes - look for value
 console.warn("Does array3 contains the letter b?");
 console.log("Answer is: " + array3.includes("b"));
 
