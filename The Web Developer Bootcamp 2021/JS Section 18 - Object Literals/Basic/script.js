@@ -24,3 +24,15 @@ const restaurant = {
 
 let fullAddress = restaurant.address + ", " + restaurant.city + ", " + restaurant.state + restaurant.zipcode;
 console.log(fullAddress);
+
+//modyfiting objects
+const midterms = {
+    dannielle: 96,
+    thomas: 78
+}
+
+midterms.thomas = "C+";
+midterms["dannielle"] = "A";
+
+midterms.erza = "B+";
+midterms["Antonio"] = "A-";
