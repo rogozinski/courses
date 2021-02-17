@@ -23,8 +23,8 @@ Second one is **The Web Developer Bootcamp 2021** by a **Colt Steele** at Udemy 
 - [X] Section 14: JavaScript Basics! 
 - [X] Section 15: JavaScript Strings and More
 - [X] Section 16: JavaScript Decision Making
-- [ ] **Section 17: JavaScript Arrays [In Progress...]**
-- [ ] Section 18: JavaScript Object Literals
+- [X] Section 17: JavaScript Arrays 
+- [ ] **Section 18: JavaScript Object Literals[In Progress...]**
 - [ ] Section 19: Repeating Stuff With Loops
 - [ ] Section 20: NEW: Introducing Functions
 - [ ] Section 21: Leveling Up Our Functions
