@@ -20,7 +20,7 @@ const secretPassword = "Pancakes";
 let guess = prompt("Enter a secret password!");
 
 while (guess !== secretPassword) {
-    guess = prompt("WRONG! TRY AGAIN!");
+    guess = prompt("Enter a secret password!");
 }
 
-alert("Finally..");
+console.log("You found a secret!");
