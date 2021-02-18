@@ -44,3 +44,10 @@ for (let char of "hello world") {
     console.log(char);
 }
 */
+//PRACTICE EXERCISE
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (let nums of numbers) {
+    console.log(nums * nums);
+    //console.log(Math.pow(nums, 2)); //or you can use this solution
+}
