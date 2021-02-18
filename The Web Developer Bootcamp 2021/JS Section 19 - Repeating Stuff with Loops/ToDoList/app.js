@@ -19,6 +19,8 @@ while (input !== "quit" && input !== "q") {
         todoMemory.push(newTodo);
         //display confirmation
         console.log(`"${newTodo}" added to the list`);
+    } else if (input === "delete") {
+        const deleteTodo = parseInt(prompt("Which task would you like to remove"));
     }
     //once task is accomplished ask what else we can do
     input = prompt("What would you like to do?");
