@@ -21,6 +21,17 @@ while (input !== "quit" && input !== "q") {
         console.log(`"${newTodo}" added to the list`);
     } else if (input === "delete") {
         const deleteTodo = parseInt(prompt("Which task would you like to remove"));
+        //check if input is not a number
+        if (!Number.isNaN(deleteTodo)) {
+            //remove chosen by user item from our array
+            const deleted = todoMemory.splice(deleteTodo, 1);
+            //display confirmation
+            console.log(`"${deleted}" removed to the list`);
+        }
+        else {
+            //if input is not a number display this
+            console.log("Unkown Index");
+        }
     }
     //once task is accomplished ask what else we can do
     input = prompt("What would you like to do?");
