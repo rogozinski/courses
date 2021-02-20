@@ -70,6 +70,8 @@ function sumArray(arrayItems) {
 }
 
 /* Exercise 43 - Days Of The Week - Solution */
+//FIRST SOLUTION by using ARRAY
+/*
 const weekDays = ["", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
 function returnDay(dayNumber) {
@@ -79,5 +81,22 @@ function returnDay(dayNumber) {
     }
     return weekDays[dayNumber];
 }
+*/
+//SECOND SOLUTION by using OBJECT
+const weekDays = {
+    1: "Monday",
+    2: "Tuesday",
+    3: "Wednesday",
+    4: "Thursday",
+    5: "Friday",
+    6: "Saturday",
+    7: "Sunday"
+}
 
-
+function returnDay(dayNumber) {
+    if (dayNumber < 1 || dayNumber > 7) {
+        console.warn("Enter a valid number of the day");
+        return null;
+    }
+    return weekDays[dayNumber];
+}
