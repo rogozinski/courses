@@ -48,3 +48,23 @@ function lastElement(x) {
 function capitalize(word) {
     return word[0].toUpperCase() + word.slice(1, word.length);
 }
+
+/* Exercise 42 - SumArray - Solution */
+/*
+//FIRST SOLUTION
+function sumArray(x) {
+    let totalSum = 0;
+    for (let i = 0; i < x.length; i++) {
+        totalSum += x[i];
+    }
+    return totalSum;
+}
+*/
+//SECOND SOLUTION
+function sumArray(arrayItems) {
+    let totalSum = 0;
+    for (let x of arrayItems) {
+        totalSum += x;
+    }
+    return totalSum;
+}
