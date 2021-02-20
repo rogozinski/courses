@@ -27,3 +27,11 @@ function isSnakeEyes(eye1, eye2) {
 function multiply(x, y) {
     return x * y;
 }
+
+/* Exercise 39 - isShortsWeather - Solution */
+function isShortsWeather(temperature) {
+    if (temperature >= 75) {
+        return true;
+    }
+    return false;
+}
