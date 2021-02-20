@@ -22,3 +22,8 @@ function isSnakeEyes(eye1, eye2) {
 }
 //isSnakeEyes(1,1); //uncomment to run it or call it in console
 //isSnakeEyes(2,4); //uncomment to run it or call it in console
+
+/* Exercise 38 - Return Value Practice - Solution */
+function multiply(x, y) {
+    return x * y;
+}
