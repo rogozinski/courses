@@ -21,3 +21,10 @@ function repeat(str, numTimes) {
     console.log(result);
 }
 //repeat("Hi", 5); //uncomment to run it or call it in console
+
+function add(x, y) {
+    if (typeof x !== "number" || typeof y !== "number") {
+        return false;
+    }
+    return x + y;
+}
