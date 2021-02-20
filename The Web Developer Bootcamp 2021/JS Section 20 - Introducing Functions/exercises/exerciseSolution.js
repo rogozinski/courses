@@ -43,3 +43,8 @@ function lastElement(x) {
     }
     return x[x.length - 1];
 }
+
+/* Exercise 41 - Capitalize - Solution */
+function capitalize(word) {
+    return word[0].toUpperCase() + word.slice(1, word.length);
+}
