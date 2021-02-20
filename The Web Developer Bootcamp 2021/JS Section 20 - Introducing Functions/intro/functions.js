@@ -4,8 +4,10 @@ function singSong() {
     console.log("MI");
 }
 
-singSong();
-singSong();
-singSong();
-singSong();
-singSong();
+//singSong(); // uncomment to run it
+
+function greetUser(firstName) {
+    console.log(`Good evening ${firstName}! <3`);
+
+}
+greetUser("Michael");
