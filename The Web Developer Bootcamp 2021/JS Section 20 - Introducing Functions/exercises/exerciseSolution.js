@@ -10,4 +10,15 @@ function rant(message) {
     console.log(message.toUpperCase());
     console.log(message.toUpperCase());
 }
-rant("Yes, I can!");
+//rant("Yes, I can!");
+
+/* Exercise 37 - Multiple Args - Solution */
+function isSnakeEyes(eye1, eye2) {
+    if (eye1 === 1 && eye2 === 1) {
+        console.log("Snake Eyes!");
+    } else {
+        console.log("Not Snake Eyes!");
+    }
+}
+//isSnakeEyes(1,1); //uncomment to run it or call it in console
+//isSnakeEyes(2,4); //uncomment to run it or call it in console
