@@ -4,10 +4,20 @@ function singSong() {
     console.log("MI");
 }
 
-//singSong(); // uncomment to run it
+//singSong(); //uncomment to run it or call it in console
 
-function greetUser(firstName) {
-    console.log(`Good evening ${firstName}! <3`);
+function greetUser(firstName, lastName) {
+    console.log(`Good evening ${firstName} ${lastName[0]}. <3`);
 
 }
-greetUser("Michael");
+//greetUser("Michal", "Rogozinski"); //uncomment to run it or call it in console
+
+function repeat(str, numTimes) {
+    let result = "";
+    for (let i = 0; i < numTimes; i++) {
+        result += str;
+
+    }
+    console.log(result);
+}
+//repeat("Hi", 5); //uncomment to run it or call it in console
