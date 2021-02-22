@@ -7,3 +7,8 @@ function cleanNames(checkArray) {
     });
     return newArray;
 }
+
+/* Exercise 48 - Arrow Function - Solution */
+const greet = (userName) => {
+    return `Hey ${userName}!`;
+}
