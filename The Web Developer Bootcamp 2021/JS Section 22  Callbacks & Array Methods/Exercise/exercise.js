@@ -12,3 +12,7 @@ function cleanNames(checkArray) {
 const greet = (userName) => {
     return `Hey ${userName}!`;
 }
+
+/* Exercise 49 - Filter Exercise - Solution */
+const username = ["john", "googleforlife777", "qq41241353231235dqq", "0_____0", "mad Max", "lilyeris"];
+const validUserNames = usrArray => usrArray.filter(names => names.length < 10);
