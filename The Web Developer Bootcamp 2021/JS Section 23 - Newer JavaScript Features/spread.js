@@ -22,3 +22,21 @@ const dogs = ["Rusty", "Wyatt"];
 
 const allPets = [...cats, ...dogs];
 console.log(allPets);
+
+/* SPREAD WITH OBJECTS */
+//example 1
+const feline = { legs: 4, family: "Felidae" };
+const canine = { isFurry: true, family: "Caninae" };
+
+console.log({ ...feline });
+const catDog = { ...feline, ...canine };
+
+//example 2
+const dataFromForm = {
+    email: "blueman@gmail.com",
+    password: "tobias123!",
+    username: "tfunke"
+}
+
+const newUser = { ...dataFromForm, id: 2541, isAdmin: false };
+
