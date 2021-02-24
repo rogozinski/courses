@@ -28,8 +28,8 @@ Second one is **The Web Developer Bootcamp 2021** by a **Colt Steele** at Udemy 
 - [X] Section 19: Repeating Stuff With Loops
 - [X] Section 20: NEW: Introducing Functions
 - [X] Section 21: Leveling Up Our Functions 
-- [ ] **Section 22: Callbacks & Array Methods [In Progress...]**
-- [ ] Section 23: Newer JavaScript Features
+- [X] Section 22: Callbacks & Array Methods
+- [ ] **Section 23: Newer JavaScript Features [In Progress...]**
 - [ ] Section 24: Introducing The World of DOM
 - [ ] Section 25: The Missing Piece: DOM Events
 - [ ] Section 26: Score Keeper CodeAlong
