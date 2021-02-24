@@ -14,3 +14,11 @@ console.log(...nums);
 //example 3
 console.log("asdad", "adasd", "asdsd", "asds");
 console.log(..."fabulous");
+
+/* SPREAD WITH ARRAY LITERALS */
+//example 1
+const cats = ["Blue", "Scout", "Rocket"];
+const dogs = ["Rusty", "Wyatt"];
+
+const allPets = [...cats, ...dogs];
+console.log(allPets);
