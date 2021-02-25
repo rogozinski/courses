@@ -17,6 +17,7 @@ picture.style.width = "150px";
 picture.style.borderRadius = "50%";
 
 /* Exercise 55 - Rainbow Text Exercise - Solution */
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 const span = document.querySelectorAll('span');
 
 for (let i = 0; i < span.length; i++) {
