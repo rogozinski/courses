@@ -33,3 +33,11 @@ const liContainer = document.querySelectorAll("li");
 for (let li of liContainer) {
     li.classList.toggle("highlight");
 }
+
+/* Exercise 58 - 100 Button Insanity - Solution */
+const container = document.querySelector("#container");
+for (let i = 0; i < 100; i++) {
+    const newButton = document.createElement("button");
+    newButton.innerText = "Hey!";
+    container.appendChild(newButton);
+}
