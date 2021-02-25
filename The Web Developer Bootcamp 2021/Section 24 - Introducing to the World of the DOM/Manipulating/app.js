@@ -7,7 +7,7 @@ const allLinks = document.querySelectorAll("a");
 // }
 
 //document.querySelector("h1").innerText = "<b>adasdads</b>"; //it won't recognize <i> as html but just as a regular text
-document.querySelector("h1").innerHTML = "<b>Colt's Chickens</b>" //this will work
+document.querySelector("h1").innerHTML = "<i>Colt's Chickens</i>" //this will work
 
 //we can also add content to the existing one
 document.querySelector("h1").innerHTML += "<sup><i> straight outta bootcamp</i></sup>" //this will work
@@ -42,3 +42,19 @@ console.log(h2.classList);
 h2.classList.contains("border"); /* checks if h2 have class border - TRUE/FALSE */
 
 h2.classList.toggle("purple"); /* switch off/switch on class it will shows results or not */
+
+/* TRAVERSING PARENT/CHILD/SIBLING */
+const firstBold = document.querySelector("b"); //displays "Silkie"
+const paragraph = firstBold.parentElement; //displays a parent (in thise case paragraph) in which our bolded element is nested 
+
+paragraph.childElementCount; //tell us how many elements we have
+paragraph.children; //tell us how many and what elements we have 
+paragraph.children[0]; //display content of first children
+
+const squareImg = document.querySelector(".square");
+
+squareImg.previousSibling; //display text - an empty string
+squareImg.previousElementSibling; //displays p - paragraph
+
+squareImg.nextSibling; //display text - an empty string
+squareImg.nextElementSibling; //displays another img with class square
