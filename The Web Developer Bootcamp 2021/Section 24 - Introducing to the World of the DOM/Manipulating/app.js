@@ -58,3 +58,32 @@ squareImg.previousElementSibling; //displays p - paragraph
 
 squareImg.nextSibling; //display text - an empty string
 squareImg.nextElementSibling; //displays another img with class square
+
+/* APPEND & APPENDCHILD */
+//EXAMPLE 1
+const newPic = document.createElement("img"); //create new img element
+newPic.src = "https://news.usc.edu/files/2019/11/Taiwan-Blue-Magpie-web-824x549.jpg"; //add source code
+document.body.appendChild(newPic); //chose body element to insert our img on the website
+newPic.classList.add("square"); //add class square to resize added picture
+
+//EXAMPLE 2
+const newH3 = document.createElement("h3");
+newH3.innerText = "I am new Heading with number 3!";
+document.body.appendChild(newH3);
+
+//EXAMPLE 3 - Using Append method which is more flexible than appendChild and we can add more elements 
+const p = document.querySelector("p"); //select first paragraph
+p.append("I AM THE LAST SENTENCE OF PARAGRAPH INSERTED BY PURE JS", ", and I am another sentence inserted by JS"); //add your sentence at the end of the paragraph
+
+const newB = document.createElement("b");
+newB.append("You can get here with JS as well!! ");
+p.prepend(newB); //add you text AT THE BEGINNING of the selected paragraph
+
+//EXAMPLE 4 - insertAdjacentElement() if we want to insert an element between two existings ones as a sibling we should use insertAdjacentElement method
+const newH2 = document.createElement("h2");
+newH2.append("I'm here thanks to insertAdjacentElement method!");
+h1.insertAdjacentElement("afterend", newH2);
+
+const h3 = document.createElement("h3");
+h3.innerText = "I'm last example in this lesson";
+h1.after(h3);
