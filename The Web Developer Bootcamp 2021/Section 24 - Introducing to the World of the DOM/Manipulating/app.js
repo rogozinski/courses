@@ -25,4 +25,20 @@ console.log(h1.style.fontSize); //isnt able to display a value
 //so we can use different command to achieve that
 console.log(window.getComputedStyle(h1).fontSize); //32px
 
+/* CLASS LIST */
+const h2 = document.querySelector("h2");
+h2.getAttribute("class"); //there's no class so it displays "null" so we're going to set an atribute
 
+h2.setAttribute("class", "purple");  /* type of attribute, value of attribute */
+h2.setAttribute("class", "border");  /* if we try to add another class to our element in this way then it will replace the previous one */
+
+console.log(h2.classList); /* lists current classes */
+h2.classList.add("purple"); /* add another class to existing ones */
+
+console.log(h2.classList);
+h2.classList.remove("border"); /* removes class from existing ones */
+console.log(h2.classList);
+
+h2.classList.contains("border"); /* checks if h2 have class border - TRUE/FALSE */
+
+h2.classList.toggle("purple"); /* switch off/switch on class it will shows results or not */
