@@ -30,8 +30,8 @@ Second one is **The Web Developer Bootcamp 2021** by a **Colt Steele** at Udemy 
 - [X] Section 21: Leveling Up Our Functions 
 - [X] Section 22: Callbacks & Array Methods
 - [X] Section 23: Newer JavaScript Features 
-- [X] **Section 24: Introducing The World of DOM [In Progress...]**
-- [ ] Section 25: The Missing Piece: DOM Events
+- [X] Section 24: Introducing The World of DOM
+- [ ] **Section 25: The Missing Piece: DOM Events [In Progress...]**
 - [ ] Section 26: Score Keeper CodeAlong
 - [ ] Section 27: Async JavaScript: Oh Boy!
 - [ ] Section 28: AJAX and API's
