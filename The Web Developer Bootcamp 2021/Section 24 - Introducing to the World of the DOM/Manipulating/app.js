@@ -87,3 +87,17 @@ h1.insertAdjacentElement("afterend", newH2);
 const h3 = document.createElement("h3");
 h3.innerText = "I'm last example in this lesson";
 h1.after(h3);
+
+/* REMOVE & REMOVECHILD (older version) */
+//EXAMPLE 1 - removing li from ul
+const firstLi = document.querySelector("li");
+const ul = firstLi.parentElement;
+ul.removeChild(firstLi);
+
+//EXAMPLE 2 - removing first bold tag
+const b = document.querySelector("b");
+b.parentElement.removeChild(b);
+
+//EXAMPLE 3 - removing first image by using new remove() method
+const firstImg = document.querySelector("img");
+firstImg.remove();
