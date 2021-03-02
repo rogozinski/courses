@@ -13,10 +13,20 @@ form.addEventListener("submit", function (e) {
     quantityValue.value = "";
 });
 
-const addProduct = (product, quantity) => {
-    const newListItem = document.createElement("li");
+/* function to add a new line with product */
+// const addProduct = (product, quantity) => {
+//     const newListItem = document.createElement("li");
 
-    newListItem.append(quantity);
-    newListItem.append(` ${product}`);
-    listContainer.append(newListItem);
+//     newListItem.append(quantity);
+//     newListItem.append(` ${product}`);
+//     listContainer.append(newListItem);
+// };
+
+/* SOLUTION 2 */
+const addProduct = (product, quantity) => {
+
+    const newListItem = document.createElement("li");
+    newListItem.innerHTML = `${quantity} ${product}`;
+    listContainer.appendChild(newListItem);
+
 };
