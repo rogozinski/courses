@@ -9,3 +9,13 @@ input.addEventListener("input", function (e) {
     }
 });
 
+/*
+//Another solution
+input.addEventListener("input", function(e){
+    if(!this.value){
+        h1.innerHTML = "Enter Your Username";
+    } else{
+    h1.innerHTML = `Welcome, ${input.value}`;
+    }
+});
+*/
