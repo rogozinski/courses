@@ -44,13 +44,15 @@ const delayedColorChange = (color, delay) => {
     })
 }
 
-// delayedColorChange('red', 1000)
-//     .then(() => delayedColorChange('orange', 1000))
-//     .then(() => delayedColorChange('yellow', 1000))
-//     .then(() => delayedColorChange('green', 1000))
-//     .then(() => delayedColorChange('blue', 1000))
-//     .then(() => delayedColorChange('indigo', 1000))
-//     .then(() => delayedColorChange('violet', 1000))
+/*
+delayedColorChange('red', 1000)
+    .then(() => delayedColorChange('orange', 1000))
+    .then(() => delayedColorChange('yellow', 1000))
+    .then(() => delayedColorChange('green', 1000))
+    .then(() => delayedColorChange('blue', 1000))
+    .then(() => delayedColorChange('indigo', 1000))
+    .then(() => delayedColorChange('violet', 1000))
+*/
 
 async function rainbow() {
     await delayedColorChange("red", 1000)
@@ -66,5 +68,24 @@ async function printRainbow() {
     await rainbow();
     console.log("End of Rainbow");
 }
+// printRainbow();
 
-printRainbow();
+/* EXAMPLE 4 - handling rejected Promises */
+const fakeRequest = (url) => {
+    return new Promise((resolve, reject) => {
+        const delay = Math.floor(Math.random() * (4500)) + 500;
+        setTimeout(() => {
+            if (delay > 2000) {
+                reject('Connection Timeout :(')
+            } else {
+                resolve(`Here is your fake data from ${url}`)
+            }
+        }, delay)
+    })
+}
+
+
+async function makeTwoRequests() {
+    let data1 = await fakeRequest('/page1');
+    console.log(data1);
+}
