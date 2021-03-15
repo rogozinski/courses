@@ -1,16 +1,32 @@
 // async function hello() {
 // }
 
-const sing = async () => {
-    throw new Error("async failed");
-    return "Lalalala";
+// const sing = async () => {
+//     throw new Error("async failed");
+//     return "Lalalala";
+// }
+
+// sing()
+//     .then(data => {
+//         console.log("Promise Resolved With:", data);
+//     })
+//     .catch(err => {
+//         console.log("Promise Rejected:");
+//         console.log(err);
+//     })
+
+const login = async (username, password) => {
+    if (!username || !password) throw "Missing Credentials"
+    if (password === "abc123") return "Welcome!"
+    throw "Invalid Password"
 }
 
-sing()
-    .then(data => {
-        console.log("Promise Resolved With:", data);
+login("user", "abc123")
+    .then(msg => {
+        console.log("Logged in")
+        console.log(msg)
     })
     .catch(err => {
-        console.log("Promise Rejected:");
-        console.log(err);
+        console.log("Error!")
+        console.log(err)
     })
