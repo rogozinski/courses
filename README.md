@@ -33,8 +33,8 @@ Second one is **The Web Developer Bootcamp 2021** by a **Colt Steele** at Udemy 
 - [X] Section 24: Introducing The World of DOM
 - [X] Section 25: The Missing Piece: DOM Events
 - [X] **Section 26: Score Keeper CodeAlong**
-- [ ] **Section 27: Async JavaScript: Oh Boy! [In Progress...]**
-- [ ] Section 28: AJAX and API's
+- [X] Section 27: Async JavaScript: Oh Boy!
+- [ ] **Section 28: AJAX and API's  [In Progress...]**
 - [ ] Section 29: Prototypes, Classes & OOP
 - [ ] Section 30: Mastering The Terminal
 - [ ] Section 31: Our First Brush with Node
