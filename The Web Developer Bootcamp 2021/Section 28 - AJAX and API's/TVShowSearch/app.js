@@ -20,3 +20,10 @@ const makeImages = (shows) => {
         }
     }
 }
+const deleteImgs = function () {
+    const imgs = document.querySelectorAll('img');
+    for (let img of imgs) {
+        img.remove();
+    }
+}
+document.querySelector("button").addEventListener("click", deleteImgs);
