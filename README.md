@@ -35,10 +35,10 @@ Second one is **The Web Developer Bootcamp 2021** by a **Colt Steele** at Udemy 
 - [X] **Section 26: Score Keeper CodeAlong**
 - [X] Section 27: Async JavaScript: Oh Boy!
 - [X] **Section 28: AJAX and API's
-- [ ] **Section 29: Prototypes, Classes & OOP  [In Progress...]**
-- [ ] Section 30: Mastering The Terminal
-- [ ] Section 31: Our First Brush with Node
-- [ ] Section 32: Exploring Modules & The NPM Universe
+- [ ] **Section 29: Prototypes, Classes & OOP  [skipped for now]**
+- [X] Section 30: Mastering The Terminal
+- [X] Section 31: Our First Brush with Node
+- [ ] **Section 32: Exploring Modules & The NPM Universe  [In Progress...]**
 - [ ] Section 33: Creating Servers with Express
 - [ ] Section 34: Creating Dynamic HTML with Templating
 - [ ] Section 35: Defining RESTful Routes
