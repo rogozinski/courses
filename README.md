@@ -38,8 +38,8 @@ Second one is **The Web Developer Bootcamp 2021** by a **Colt Steele** at Udemy 
 - [ ] **Section 29: Prototypes, Classes & OOP  [skipped for now]**
 - [X] Section 30: Mastering The Terminal
 - [X] Section 31: Our First Brush with Node
-- [ ] **Section 32: Exploring Modules & The NPM Universe  [In Progress...]**
-- [ ] Section 33: Creating Servers with Express
+- [X] Section 32: Exploring Modules & The NPM Universe
+- [ ] **Section 33: Creating Servers with Express  [In Progress...]**
 - [ ] Section 34: Creating Dynamic HTML with Templating
 - [ ] Section 35: Defining RESTful Routes
 - [ ] Section 36: Our First Database: MongoDB
