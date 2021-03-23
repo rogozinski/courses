@@ -14,6 +14,10 @@ app.get("/", (req, res) => {
     res.send("Home Page");
 })
 
+app.post("/cats", (req, res) => {
+    res.send("POST REQUEST to /cats");
+})
+
 app.get("/cats", (req, res) => {
     res.send("MEOW");
 })
@@ -21,6 +25,11 @@ app.get("/cats", (req, res) => {
 app.get("/dogs", (req, res) => {
     res.send("WOOF");
 })
+
+app.get("*", (req, res) => {
+    res.send("Route to this path doesn't exists");
+})
+
 
 app.listen(8080, () => {
     console.log("Listening on port 8080");
