@@ -11,7 +11,7 @@ app.use((req, res) => {
 */
 7
 app.get("/", (req, res) => {
-    res.send("Home Page");
+    res.send("Welcome to the Home Page!!");
 })
 
 app.get("/r/:subreddit", (req, res) => {
