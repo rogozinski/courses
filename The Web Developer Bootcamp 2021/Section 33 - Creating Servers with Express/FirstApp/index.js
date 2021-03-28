@@ -36,10 +36,17 @@ app.get("/dogs", (req, res) => {
     res.send("WOOF");
 })
 
+app.get("/search", (req, res) => {
+    const { q } = req.query;
+    if (!q) {
+        res.send("Nothing found...");
+    }
+    res.send(`<h1>Search results for: ${q} </h1>`);
+})
+
 app.get("*", (req, res) => {
     res.send("Route to this path doesn't exists");
 })
-
 
 app.listen(8080, () => {
     console.log("Listening on port 8080");
