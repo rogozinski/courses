@@ -17,7 +17,11 @@ app.get("/", (req, res) => {
 app.get("/r/:subreddit", (req, res) => {
     const { subreddit } = req.params;
     res.send(`<h1>Currently browsing: ${subreddit} subreddit </h1>`);
+})
 
+app.get("/r/:subreddit/:postId", (req, res) => {
+    const { subreddit, postId } = req.params;
+    res.send(`<h1>Viewing Post ID:${postId} on the ${subreddit} subreddit </h1>`);
 })
 
 app.post("/cats", (req, res) => {
