@@ -1,6 +1,5 @@
 <%- include("partials/head")%>
-
-    <body>
+    <%- include("partials/navbar")%>
         <h1>Your random number for today is: <%= rand %>
         </h1>
 
@@ -12,6 +11,4 @@
                     <h3>
                         <%= rand%2===0 ? "Even" : "Odd" %>
                     </h3>
-    </body>
-
-    </html>
+                    <%- include("partials/footer")%>
