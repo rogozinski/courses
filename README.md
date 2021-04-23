@@ -40,8 +40,8 @@ Second one is **The Web Developer Bootcamp 2021** by a **Colt Steele** at Udemy 
 - [X] Section 31: Our First Brush with Node
 - [X] Section 32: Exploring Modules & The NPM Universe
 - [X] Section 33: Creating Servers with Express
-- [ ] **Section 34: Creating Dynamic HTML with Templating  [In Progress...]**
-- [ ] Section 35: Defining RESTful Routes
+- [X] Section 34: Creating Dynamic HTML with Templating 
+- [ ] **Section 35: Defining RESTful Routes [In Progress...]**
 - [ ] Section 36: Our First Database: MongoDB
 - [ ] Section 37: Connecting to Mongo with Mongoose
 - [ ] Section 38: Putting It All Together: Moongoose with Express
