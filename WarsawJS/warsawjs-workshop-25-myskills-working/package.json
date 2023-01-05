@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/rogozinski/warsawjs-workshop-25-myskills-working#readme",
   "dependencies": {
-    "@babel/core": "^7.1.2",
+    "@babel/core": "^7.20.12",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
     "eslint-config-piecioshka": "^2.0.1",
